@@ -5,8 +5,8 @@
 //const vald = require("validator")
 
 const vald = require("chalk")
-const { command, describe, argv, demandOption } = require("yargs")
-const yargs = require("yargs")
+//const { command, describe, argv, demandOption } = require("yargs")
+//const yargs = require("yargs")
 
 const yar = require("yargs")
 
@@ -43,6 +43,7 @@ yar.version('1.1.0')
 //setup a body option to add command hint: use builder
 //  configure describtion and make it require and set it to string
 //log the body value in handler function
+
 yar.command({
     command : "add",
     describe :  " adding a new note",
